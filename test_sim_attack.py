@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
 test_sim_attack.py
-
 Juanli Sun, Yan Ke, Minqing Zhang, Shijun Xiang 2025.
 
+Test the anti-collusion attack performance of the scheme. In joint decryption, 
+simulate k malicious adversaries to embed k-k' existing images rather than generating noisy images.
 """
 from secrets import randbelow
 import os
