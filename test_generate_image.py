@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 test_generate_image.py
-
 Juanli Sun, Yan Ke, Minqing Zhang, Shijun Xiang 2025.
 
+Contains methods to visualize and save stage-wise computational results as images during scheme implementation.
 """
 from secrets import randbelow
 import sys
@@ -269,7 +269,7 @@ def main():
         # c_list.append(img_share_decryption_list[img_index,i])
         # Simulation done
         # Normal shares
-        # for img_index in range(threshold): #模拟恶意敌手生成一个噪声图像
+        # for img_index in range(threshold): #Simulate malicious adversaries to generate noisy images.
         #     c_list.append(img_share_decryption_list[img_index,i])
         # Combining decryption of legitimate shares has finished.
         m_rec = private_key_ring.combiningDecrypt(c_list)  # Decrypted to extended plaintext (range: entire plaintext space)
