@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
 test_correlation_map_2000.py
-
 Juanli Sun, Yan Ke, Minqing Zhang, Shijun Xiang 2025.
 
-"""
+Contains functions to compute correlation coefficients in four directions, 
+randomly select 2000 pixel pairs from different directions, and display scatter plots.
 
+"""
 import os
 import sys
 import numpy as np
