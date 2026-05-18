@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 calc_distortion.py
-
 Juanli Sun, Yan Ke, Minqing Zhang, Shijun Xiang 2025.
+
+Contains functions to calculate psnr, ssim, nae, nc, kl divergence and cross entropy of two images.
 
 """
 
