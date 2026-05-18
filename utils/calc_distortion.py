@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+"""
+calc_distortion.py
+
+Juanli Sun, Yan Ke, Minqing Zhang, Shijun Xiang 2025.
+
+"""
+
 import numpy as np
 import cv2
 from scipy.stats import entropy
