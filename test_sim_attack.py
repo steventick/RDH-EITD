@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 """
+test_sim_attack.py
+
+Juanli Sun, Yan Ke, Minqing Zhang, Shijun Xiang 2025.
 
 """
 from secrets import randbelow
