@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+"""
+preprocess_bossbase.py
+
+Juanli Sun, Yan Ke, Minqing Zhang, Shijun Xiang 2025.
+
+"""
+
 import cv2 as cv
 import os
 
