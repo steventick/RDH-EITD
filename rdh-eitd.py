@@ -4,7 +4,6 @@ rdh-eitd.py
 Juanli Sun, Yan Ke, Minqing Zhang, Shijun Xiang 2025.
 
 Core implementation of the scheme.
-
 """
 from secrets import randbelow
 import os
