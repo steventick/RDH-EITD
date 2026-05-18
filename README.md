@@ -100,16 +100,14 @@ To reproduce the main experiments and results from the paper:
 ```bash
 # Run the scheme (keygen, encryption, dual-phase embedding, extraction, decryption, recovery)
 python rdh-eitd.py
-# Run the program for calculating recovered image distortion 
-python test_psnr.py
-# Run the program that simulates collusion attacks.
-python test_sim_attack.py
-# Calculate the baseline PSNR and SSIM of images that are completely uncorrelated with the test image House.png
-python test_baseline.py
-# Test the correlation coefficient of the test image
-python test_correlation_map_2000.py
 # Run the scheme with generation of images in each phases.
 python test_generate_image.py
+# Test the correlation coefficient of the test image
+python test_correlation_map_2000.py
+# Calculate the baseline PSNR and SSIM of images that are completely uncorrelated with the test image House.png
+python test_baseline.py
+# Run the program that simulates collusion attacks.
+python test_sim_attack.py
 ```
 
 ## 📝 License & Attribution
