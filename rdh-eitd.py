@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 rdh-eitd.py
-
 Juanli Sun, Yan Ke, Minqing Zhang, Shijun Xiang 2025.
+
+Core implementation of the scheme.
 
 """
 from secrets import randbelow
