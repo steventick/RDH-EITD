@@ -12,9 +12,9 @@ import os
 import sys
 from utils.calc_distortion import calculate_psnr,calculate_ssim
 
-filename = 'data/img/Med2'
-file_to_read = filename if filename.lower().endswith('.png') else filename + '.png'
-file_to_read_rec = filename + '_rec.png'
+filename = 'data/img/Med2' #changable
+file_to_read = filename if filename.lower().endswith('.png') else filename + '.png' #changable
+file_to_read_rec = filename + '_rec.png' #changable
 if not os.path.exists(file_to_read):
     print(f"ERROR: Image file '{file_to_read}' not found.")
     sys.exit(1)
