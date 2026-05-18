@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
 preprocess_bossbase.py
-
 Juanli Sun, Yan Ke, Minqing Zhang, Shijun Xiang 2025.
 
+Contains functions to convert images from PGM format to PNG format.
 """
-
 import cv2 as cv
 import os
 
