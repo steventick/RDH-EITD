@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 """
-test_bit.py
-Boucher, Govedič, Saowakon, Swanson 2019
-
-Contains unit tests for the damgard-jurik package.
 
 """
 from secrets import randbelow
